@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_marginTop="15dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/s1"
+        android:textSize="25sp"
+        android:gravity="center"
+
+        />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter text here...."
+        android:padding="20dp"
+        android:layout_margin="20dp"
+        />
+
+    <Button
+        android:id="@+id/short_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Short Toast"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+
+        />
+
+    <Button
+        android:id="@+id/long_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Long Toast"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:onClick="LongToast"
+
+        />
+
+</LinearLayout>
